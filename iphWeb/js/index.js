@@ -52,7 +52,7 @@ var mySwiperH = new Swiper(".swiper-container-h",{
     pagination:".swiper-pagination-h",
     paginationType:"bullets",
     paginationClickable:"true",
-    effect:'flip',
+    //effect:'flip',
     onTransitionEnd:function(swiper){
         var curIndex = swiper.activeIndex;//当前显示的滑块的索引
         var slides = swiper.slides;//获得所有的滑块
