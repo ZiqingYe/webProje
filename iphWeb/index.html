@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="icon" href="img/Resume_24px_1145819_easyicon.net.ico"/>
+    <title>叶自清-移动端简历</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <script>
+        ~function () {
+            var desW = 640,
+                    winW = document.documentElement.clientWidth;
+            if (winW > 640) return;
+            document.documentElement.style.fontSize = winW / desW * 100 + 'px';
+        }();
+    </script>
+</head>
+<body>
+<section class="main">
+    <div class="music">
+        <audio src="audio/1-02%20Cocoon.mp3" loop preload="none" id="cocoon"></audio>
+    </div>
+    <div class="swiper-container swiper-container-v">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+                <div class="animated fadeIn"><span class="line"></span><span>个人简历</span><span class="line"></span></div>
+                <div class="animated rotateIn"></div>
+                <div class="tab animated flipInY" id="tab">
+                    <div class="button on">基本信息</div>
+                    <div class="button">院校籍贯</div>
+                    <div class="button">联系方式</div>
+                    <div class="content show">
+                        <span>姓名：叶自清</span>
+                        <span>性别：男</span>
+                        <span>出生年月：1989 年 11 月</span>
+                    </div>
+                    <div class="content">
+                        <span>2012 年 6 月毕业于北京建筑大学</span>
+                        <span>专业：给水与排水工程</span>
+                        <span>籍贯：北京市</span>
+                    </div>
+                    <div class="content">
+                        <span>Tel：13810273075</span>
+                        <span>E-mail：qiat7228@126.com</span>
+                        <span>QQ：1010352561</span>
+                    </div>
+                </div>
+                <!--<div class="animated fadeInUp">
+                    <a href="#basicInfo">求职信息&自我评价</a>
+                    <a href="#workEx">工作经历</a>
+                    <a href="#contact">专业技能</a>
+                    <a href="#proj">项目经历</a>
+                </div>-->
+            </div>
+            <div class="swiper-slide slide2">
+                <!--<a name="basicInfo"></a>-->
+                <div class="animated fadeIn"><span class="line"></span><span>求职信息</span><span class="line"></span></div>
+            </div>
+            <div class="swiper-slide slide3" >
+                <!--<a name="workEx"></a>-->
+            </div>
+            <div class="swiper-slide slide4">
+                <!--<a name="contact"></a>-->
+            </div>
+            <div class="swiper-slide slide5">
+                <!--<a name="proj"></a>-->
+                <div class="swiper-container swiper-container-h">
+                    <div class="swiper-wrapper swiper-wrapper-h">
+                        <div class="swiper-slide slide6"></div>
+                        <div class="swiper-slide slide7"></div>
+                        <div class="swiper-slide slide8"></div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-h"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination swiper-pagination-v"></div>
+    </div>
+</section>
+</body>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+</html>
